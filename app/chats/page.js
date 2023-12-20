@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-const page = () => {
+const Chats = () => {
   return (
     <>
       {/* first-slide */}
-      <div className=' flex w-full m-5 sm:justify-center'>
+      <div className=' flex m-5 sm:justify-center'>
         <Image src="/one.jpg" width="50" height="10" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -23,7 +23,7 @@ const page = () => {
       </div>
       {/* first-slide-end */}
          {/* second-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex  m-5 sm:justify-center'>
          <Image src="/second.jpg" width="50" height="40" className='rounded-full'></Image>
 
         <div className='mx-2'>
@@ -42,7 +42,7 @@ const page = () => {
       </div>
       {/* second-slide-end */}
          {/* third-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex  m-5 sm:justify-center'>
         <Image src="/third.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -60,7 +60,7 @@ const page = () => {
       </div>
       {/* third-slide-end */}
          {/* four-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex  m-5 sm:justify-center'>
         <Image src="/four.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -78,7 +78,7 @@ const page = () => {
       </div>
       {/* four-slide-end */}
          {/* five-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex m-5 sm:justify-center'>
         <Image src="/five.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -96,7 +96,7 @@ const page = () => {
       </div>
       {/* five-slide-end */}
          {/* six-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex  m-5 sm:justify-center'>
         <Image src="/six.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -114,7 +114,7 @@ const page = () => {
       </div>
       {/* six-slide-end */}
          {/* seven-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex m-5 sm:justify-center'>
         <Image src="/seven.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -132,7 +132,7 @@ const page = () => {
       </div>
       {/* seven-slide-end */}
          {/* eight-slide */}
-         <div className=' flex w-full m-5 sm:justify-center'>
+         <div className=' flex m-5 sm:justify-center'>
         <Image src="/eight.jpg" width="50" height="40" className='rounded-full'></Image>
         <div className='mx-2'>
           <div className='flex justify-between w-full'>
@@ -155,4 +155,4 @@ const page = () => {
 }
 
 
-export default page
+export default Chats
