@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
       <div className='m-2  flex sm:justify-center'>
-        <div className='flex justify-between  items-center sm:w-80 '>
+        <div className='flex justify-between  items-center w-80 '>
           <h3 className='font-bold'>Status</h3>
           < BsThreeDotsVertical />
         </div>
